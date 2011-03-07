@@ -29,7 +29,7 @@ You can install your own instance following this instructions:
 
 1. Clone this repository
 2. Execute `jruby -S bundle install`
-3. Modify the parameters `apps_base` and `base_app_dir` for your installation
+3. Modify the parameters `apps_base` and `base_app_dir` for your installation into the file `trinidad.yml`
 4.  Execute `jruby -S trinidad -f PATH_TO_THE_TRINIDAD_YML`
 
 Copyright
