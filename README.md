@@ -9,6 +9,8 @@ This service runs on a Small Amazon EC2 instance from a temporal directory, so d
 
 It doesn't provide any database, so make sure your application uses sqlite3 or any other embedded database.
 
+If your application uses Bundler the service installs the required gems.
+
 Usage
 -----
 
