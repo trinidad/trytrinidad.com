@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Try Trinidad</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+  </head>
+  <body>
+    <a href="http://github.com/calavera/trytrinidad.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://assets1.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_gray_6d6d6d.png&path=" alt="Fork me on GitHub"></a>
+    <div id="site">
+      <nav>
+        <div>
+          <h1>Try Trinidad</h1>
+        </div>
+      </nav>
+      <div>
+        <div id="legend">
+          <p>Try how your Rails application runs on Trinidad without hassle.</p>
+          <p>This service runs on a Small Amazon EC2 instance from a temporal directory, so don't expect the best performance ever. Your application will desapear as soon as I restart the instance.</p>
+          <p>It doesn't provide any database, so make sure your application uses sqlite3 or any other embedded database.</p>
+          <p>If your application uses Bundler the service installs the required gems.
+        </div>
+        <div id="steps">
+          <ol>
+            <li>Add TryTrinidad.com <a href="trytrinidad.pub">ssh key</a> to your deploy keys on Github.</li>
+            <li><p>Use the <a href="/sandbox/deploy">form</a> to deploy your application
+              or
+              add this Post-Receive URL on Github:</p>
+              <p class="url">http://trytrinidad.com/sandbox/deploy?deploy_token=trytrinidad</p>
+            </li>
+            <li>Check the status of your application in the <a href="/sandbox/apps">console</a>.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

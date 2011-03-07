@@ -1,0 +1,12 @@
+---
+  jruby_max_runtimes: 1
+  apps_base: apps
+  extensions:
+    sandbox:
+      host_name: trytrinidad.com
+      deploy_token: trytrinidad
+      enable_default: false
+  web_apps:
+    default:
+      web_app_dir: /tmp/trytrinidad
+      rackup: config.ru
