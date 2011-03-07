@@ -1,13 +1,13 @@
 ---
   jruby_max_runtimes: 1
-  apps_base: apps
+  apps_base: apps                          # where the applications that you deploy are installed, relative to where jruby is been executed
   extensions:
     sandbox:
-      host_name: trytrinidad.com
-      deploy_token: trytrinidad
-      enable_default: false
-      git_ssh: false
+      host_name: trytrinidad.com           # host name for the Post-Receive url
+      deploy_token: trytrinidad            # Post-Receive deploy key
+      enable_default: false                # whether we want to see the default application on the console or not
+      git_ssh: false                       # whether we use ssh keys to clone the repositories
   web_apps:
     default:
-      web_app_dir: /tmp/trytrinidad
+      web_app_dir: /tmp/trytrinidad.com    # application with the deploy instructions, it must be out of the app_base directory with an absolute path
       rackup: config.ru
