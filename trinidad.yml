@@ -6,6 +6,7 @@
       host_name: trytrinidad.com
       deploy_token: trytrinidad
       enable_default: false
+      git_ssh: false
   web_apps:
     default:
       web_app_dir: /tmp/trytrinidad
